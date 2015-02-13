@@ -1,0 +1,16 @@
+{application, ecrontab,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ecrontab_app, []}},
+  {env, [
+      {cronfile,"./config/crontab.config"},
+      {check_file_interval,60000}, % 1 min
+      {check_cron_interval,60000}  % 1 min
+  ]}
+ ]}.
