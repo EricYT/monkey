@@ -1,0 +1,120 @@
+2015-03-01 10:03:59.580 [error] <0.130.0> CRASH REPORT Process ecrontab_server with 0 neighbours exited with reason: bad return value: {error,enoent} in gen_server:init_it/6 line 334
+2015-03-01 10:03:59.581 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: bad return value: {error,enoent} in ecrontab_app:start(normal, []) in application_master:init/4 line 133
+2015-03-01 13:49:35.659 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value enoent in cache_server:init/1 line 38 in gen_server:init_it/6 line 330
+2015-03-01 13:49:35.660 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value enoent in cache_server:init/1 line 38 in context start_error
+2015-03-01 13:49:35.660 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,38}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:51:51.208 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value enoent in cache_server:init/1 line 39 in gen_server:init_it/6 line 330
+2015-03-01 13:51:51.208 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value enoent in cache_server:init/1 line 39 in context start_error
+2015-03-01 13:51:51.209 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:53:32.700 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value [{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}] in cache_server:init/1 line 39 in gen_server:init_it/6 line 330
+2015-03-01 13:53:32.700 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value [{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}] in cache_server:init/1 line 39 in context start_error
+2015-03-01 13:53:32.700 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,[{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}]},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:55:36.183 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:19:30.131 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:21:43.392 [error] <0.158.0> gen_server <0.158.0> terminated with reason: bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56
+2015-03-01 14:21:43.392 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56 in gen_server:terminate/6 line 746
+2015-03-01 14:21:43.392 [error] <0.125.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.158.0> exit with reason bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56 in context child_terminated
+2015-03-01 14:30:10.215 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:19: Error: spec for undefined function cache:put_sync/3
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put_async/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:36: Warning: function puts_async/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:30:12.251 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:19: Error: spec for undefined function cache:put_sync/3
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put_async/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:36: Warning: function puts_async/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:30:45.656 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:33:39.753 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled with 1 warnings
+2015-03-01 14:33:40.795 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled with 1 warnings
+2015-03-01 14:34:26.361 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:32: Error: variable 'WantsReturn' is unbound
+2015-03-01 14:34:31.427 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+2015-03-01 14:34:33.463 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+2015-03-01 14:35:34.205 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:35:40.288 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:35:41.308 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:36:12.682 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:36:13.701 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:36:31.900 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:56:00.229 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:57:19.823 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.190.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.188.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.204.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.364 [error] emulator Error in process <0.191.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.364 [error] emulator Error in process <0.207.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.365 [error] emulator Error in process <0.209.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.214.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.189.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.198.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.367 [error] emulator Error in process <0.217.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.367 [error] <0.131.0> gen_server pool_put terminated with reason: bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172
+2015-03-01 17:31:07.368 [error] <0.131.0> CRASH REPORT Process pool_put with 0 neighbours exited with reason: bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172 in gen_server:terminate/6 line 746
+2015-03-01 17:31:07.368 [error] <0.118.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172 in context child_terminated

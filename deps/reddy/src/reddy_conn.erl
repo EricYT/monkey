@@ -75,7 +75,7 @@ async(Pid, Cmd, Args, WantsReturn) ->
     async(Pid, self(), Cmd, Args, WantsReturn).
 
 async(Pid, Caller, Cmd, Args, WantsReturn) ->
-    lager:debug("--------> reddy async:~p", [{Cmd, Args}]),
+    %%lager:debug("--------> reddy async:~p", [{Cmd, Args}]),
     Op = reddy_ops:create(Cmd, Args),
     case catch gen_server:call(Pid, {enqueue, Op, Caller, WantsReturn}, infinity) of
         {'EXIT', {noproc, _, _}} ->
@@ -99,7 +99,6 @@ init([Owner, Addr, Port, Opts]) ->
                     {ok, #state{sock=Sock, tracefile=Path}}
             end;
         Error ->
-            io:format("-------->redis can not connected ~p~n", [{?MODULE, ?LINE, Error}]),
             {stop, Error}
     end.
 
@@ -110,6 +109,7 @@ handle_call({enqueue, Op, Caller, WantsReturn}, _From, #state{sock=Sock, cmd_que
     Ref = erlang:make_ref(),
     Bin = reddy_protocol:to_iolist(Op),
     log_client(File, Bin),
+    %%lager:debug("---------> Ops:~p~n", [Bin]),
     case gen_tcp:send(Sock, Bin) of
         ok ->
             Reply = if

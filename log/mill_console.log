@@ -1,0 +1,608 @@
+2015-03-01 10:03:59.529 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.542 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.544 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.551 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.561 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.569 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.574 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 10:03:59.580 [error] <0.130.0> CRASH REPORT Process ecrontab_server with 0 neighbours exited with reason: bad return value: {error,enoent} in gen_server:init_it/6 line 334
+2015-03-01 10:03:59.581 [error] <0.128.0> CRASH REPORT Process <0.128.0> with 0 neighbours exited with reason: bad return value: {error,enoent} in ecrontab_app:start(normal, []) in application_master:init/4 line 133
+2015-03-01 10:03:59.581 [info] <0.7.0> Application ecrontab exited with reason: bad return value: {error,enoent} in ecrontab_app:start(normal, [])
+2015-03-01 10:03:59.589 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.627 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.630 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.631 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.635 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.641 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.648 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.651 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.657 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 10:05:17.660 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.595 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.609 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.611 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.618 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.626 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.635 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.640 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.647 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.649 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 13:49:35.659 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value enoent in cache_server:init/1 line 38 in gen_server:init_it/6 line 330
+2015-03-01 13:49:35.660 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value enoent in cache_server:init/1 line 38 in context start_error
+2015-03-01 13:49:35.660 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,38}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:49:35.661 [info] <0.7.0> Application cache exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,38}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}}
+2015-03-01 13:49:35.667 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.178 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.180 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.181 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.185 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.190 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.196 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.198 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.202 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.203 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 13:51:51.208 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value enoent in cache_server:init/1 line 39 in gen_server:init_it/6 line 330
+2015-03-01 13:51:51.208 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value enoent in cache_server:init/1 line 39 in context start_error
+2015-03-01 13:51:51.209 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:51:51.209 [info] <0.7.0> Application cache exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,enoent},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}}
+2015-03-01 13:51:51.220 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.665 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.668 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.669 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.673 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.680 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.686 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.689 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.693 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.695 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 13:53:32.700 [error] <0.137.0> CRASH REPORT Process <0.137.0> with 0 neighbours exited with reason: no match of right hand value [{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}] in cache_server:init/1 line 39 in gen_server:init_it/6 line 330
+2015-03-01 13:53:32.700 [error] <0.136.0> Supervisor cache_sup had child cache_server started with cache_server:start_link() at undefined exit with reason no match of right hand value [{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}] in cache_server:init/1 line 39 in context start_error
+2015-03-01 13:53:32.700 [error] <0.134.0> CRASH REPORT Process <0.134.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,[{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}]},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-03-01 13:53:32.701 [info] <0.7.0> Application cache exited with reason: {{shutdown,{failed_to_start_child,cache_server,{{badmatch,[{host,"localhost"},{password,undefined},{port,6379},{pcount,20},{gcount,20}]},[{cache_server,init,1,[{file,"src/cache_server.erl"},{line,39}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}}},{cache_app,start,[normal,[]]}}
+2015-03-01 13:53:32.713 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.599 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.602 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.604 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.608 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.623 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.631 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.635 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.641 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.643 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.692 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 13:55:04.698 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 13:55:35.032 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache_server.erl:0: Recompiled.
+2015-03-01 13:55:35.539 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-03-01 13:55:35.585 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-03-01 13:55:35.602 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-03-01 13:55:36.132 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql.erl:0: Recompiled.
+2015-03-01 13:55:36.183 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 13:55:36.270 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn.erl:0: Recompiled.
+2015-03-01 13:55:36.385 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn_mgr.erl:0: Recompiled.
+2015-03-01 13:55:36.425 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_statements.erl:0: Recompiled.
+2015-03-01 13:55:36.505 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_tcp.erl:0: Recompiled.
+2015-03-01 13:55:36.579 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_util.erl:0: Recompiled.
+2015-03-01 13:55:37.189 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/error_logger_lager_h.erl:0: Recompiled.
+2015-03-01 13:55:37.276 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager.erl:0: Recompiled.
+2015-03-01 13:55:37.319 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_app.erl:0: Recompiled.
+2015-03-01 13:55:37.343 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_backend_throttle.erl:0: Recompiled.
+2015-03-01 13:55:37.375 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_common_test_backend.erl:0: Recompiled.
+2015-03-01 13:55:37.399 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_config.erl:0: Recompiled.
+2015-03-01 13:55:37.446 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_console_backend.erl:0: Recompiled.
+2015-03-01 13:55:37.519 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_crash_log.erl:0: Recompiled.
+2015-03-01 13:55:37.547 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_default_formatter.erl:0: Recompiled.
+2015-03-01 13:55:37.714 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_file_backend.erl:0: Recompiled.
+2015-03-01 13:55:37.757 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_handler_watcher.erl:0: Recompiled.
+2015-03-01 13:55:37.831 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_transform.erl:0: Recompiled.
+2015-03-01 13:55:37.976 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_util.erl:0: Recompiled.
+2015-03-01 13:55:38.523 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 13:55:38.789 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 13:55:38.862 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 13:55:38.992 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 13:55:39.558 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 13:55:39.816 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 13:55:39.889 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 13:55:40.018 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 13:55:40.043 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_sock.erl:0: Recompiled.
+2015-03-01 13:55:40.082 [info] <0.63.0> cache_server: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.083 [info] <0.63.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.084 [info] <0.63.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.085 [info] <0.63.0> emysql: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.087 [info] <0.63.0> emysql_conn_mgr: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.088 [info] <0.63.0> emysql_statements: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.089 [info] <0.63.0> error_logger_lager_h: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.090 [info] <0.63.0> lager: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.091 [info] <0.63.0> lager_app: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.092 [info] <0.63.0> lager_backend_throttle: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.092 [info] <0.63.0> lager_config: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.093 [info] <0.63.0> lager_console_backend: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.094 [info] <0.63.0> lager_crash_log: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.095 [info] <0.63.0> lager_default_formatter: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.096 [info] <0.63.0> lager_file_backend: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.097 [info] <0.63.0> lager_handler_watcher: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.098 [info] <0.63.0> lager_util: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.099 [info] <0.63.0> lhttpc: Reloaded! (Beam changed.)
+2015-03-01 13:55:40.101 [info] <0.63.0> lhttpc_manager: Reloaded! (Beam changed.)
+2015-03-01 14:18:58.560 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.572 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.575 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.582 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.590 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.599 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.603 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.611 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.614 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.660 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 14:18:58.671 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 14:19:28.981 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:19:28.995 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache_server.erl:0: Recompiled.
+2015-03-01 14:19:29.494 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-03-01 14:19:29.540 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-03-01 14:19:29.549 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-03-01 14:19:30.079 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql.erl:0: Recompiled.
+2015-03-01 14:19:30.131 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:19:30.213 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn.erl:0: Recompiled.
+2015-03-01 14:19:30.327 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn_mgr.erl:0: Recompiled.
+2015-03-01 14:19:30.368 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_statements.erl:0: Recompiled.
+2015-03-01 14:19:30.451 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_tcp.erl:0: Recompiled.
+2015-03-01 14:19:30.520 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_util.erl:0: Recompiled.
+2015-03-01 14:19:31.125 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/error_logger_lager_h.erl:0: Recompiled.
+2015-03-01 14:19:31.225 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager.erl:0: Recompiled.
+2015-03-01 14:19:31.272 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_app.erl:0: Recompiled.
+2015-03-01 14:19:31.295 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_backend_throttle.erl:0: Recompiled.
+2015-03-01 14:19:31.328 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_common_test_backend.erl:0: Recompiled.
+2015-03-01 14:19:31.349 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_config.erl:0: Recompiled.
+2015-03-01 14:19:31.387 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_console_backend.erl:0: Recompiled.
+2015-03-01 14:19:31.469 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_crash_log.erl:0: Recompiled.
+2015-03-01 14:19:31.497 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_default_formatter.erl:0: Recompiled.
+2015-03-01 14:19:31.648 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_file_backend.erl:0: Recompiled.
+2015-03-01 14:19:31.686 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_handler_watcher.erl:0: Recompiled.
+2015-03-01 14:19:31.764 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_transform.erl:0: Recompiled.
+2015-03-01 14:19:31.904 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_util.erl:0: Recompiled.
+2015-03-01 14:19:32.444 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:19:32.713 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:19:32.785 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:19:32.908 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:19:33.433 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:19:33.690 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:19:33.761 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:19:33.887 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:19:33.913 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_sock.erl:0: Recompiled.
+2015-03-01 14:19:33.953 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.954 [info] <0.63.0> cache_server: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.955 [info] <0.63.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.956 [info] <0.63.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.957 [info] <0.63.0> emysql: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.958 [info] <0.63.0> emysql_conn_mgr: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.959 [info] <0.63.0> emysql_statements: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.960 [info] <0.63.0> error_logger_lager_h: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.961 [info] <0.63.0> lager: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.962 [info] <0.63.0> lager_app: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.963 [info] <0.63.0> lager_backend_throttle: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.964 [info] <0.63.0> lager_config: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.965 [info] <0.63.0> lager_console_backend: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.966 [info] <0.63.0> lager_crash_log: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.966 [info] <0.63.0> lager_default_formatter: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.968 [info] <0.63.0> lager_file_backend: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.969 [info] <0.63.0> lager_handler_watcher: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.970 [info] <0.63.0> lager_util: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.971 [info] <0.63.0> lhttpc: Reloaded! (Beam changed.)
+2015-03-01 14:19:33.972 [info] <0.63.0> lhttpc_manager: Reloaded! (Beam changed.)
+2015-03-01 14:21:08.850 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:21:08.856 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:21:09.883 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:21:09.893 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:21:43.392 [error] <0.158.0> gen_server <0.158.0> terminated with reason: bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56
+2015-03-01 14:21:43.392 [error] <0.158.0> CRASH REPORT Process <0.158.0> with 0 neighbours exited with reason: bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56 in gen_server:terminate/6 line 746
+2015-03-01 14:21:43.392 [error] <0.125.0> Supervisor reddy_conn_sup had child reddy_conn started with {reddy_conn,start_link,undefined} at <0.158.0> exit with reason bad argument in call to io_lib:format("~w", 123.3) line 154 in reddy_protocol:encode_arg/1 line 56 in context child_terminated
+2015-03-01 14:30:10.215 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:19: Error: spec for undefined function cache:put_sync/3
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put_async/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:36: Warning: function puts_async/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:30:12.251 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:19: Error: spec for undefined function cache:put_sync/3
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put_async/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:36: Warning: function puts_async/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:30:45.656 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function get_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:50: Warning: function get_async/2 is unused
+2015-03-01 14:31:00.836 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:31:00.842 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:31:05.910 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:31:05.918 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:31:06.932 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:31:06.940 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:33:39.753 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled with 1 warnings
+2015-03-01 14:33:39.759 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:33:40.795 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:24: Warning: function put/3 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled with 1 warnings
+2015-03-01 14:33:40.803 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:34:01.044 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:34:01.053 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:34:26.361 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:32: Error: variable 'WantsReturn' is unbound
+2015-03-01 14:34:31.427 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+2015-03-01 14:34:33.463 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function put_sync/3 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:31: Warning: function put_sync/2 is unused
+2015-03-01 14:34:44.605 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:34:44.613 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:35:34.205 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:35:40.288 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:35:41.308 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+2015-03-01 14:36:12.682 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:36:13.701 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:36:31.900 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts/1 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:6: Error: function puts_sync/2 undefined
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:37: Warning: function puts/2 is unused
+/Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:43: Warning: function puts_sync/1 is unused
+2015-03-01 14:37:01.236 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:37:01.243 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:37:03.278 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:37:03.285 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:37:18.536 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/reddy/src/reddy_strings.erl:0: Recompiled.
+2015-03-01 14:37:18.558 [info] <0.63.0> reddy_strings: Reloaded! (Beam changed.)
+2015-03-01 14:37:19.636 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/reddy/src/reddy_strings.erl:0: Recompiled.
+2015-03-01 14:37:19.643 [info] <0.63.0> reddy_strings: Reloaded! (Beam changed.)
+2015-03-01 14:42:24.681 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:42:24.688 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:42:25.705 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:42:25.712 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:42:26.739 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:42:26.748 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:55:28.682 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.685 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.686 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.691 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.707 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.715 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.719 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.725 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.726 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.780 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 14:55:28.785 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 14:55:59.096 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:55:59.111 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache_server.erl:0: Recompiled.
+2015-03-01 14:55:59.595 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-03-01 14:55:59.640 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-03-01 14:55:59.649 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-03-01 14:56:00.174 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql.erl:0: Recompiled.
+2015-03-01 14:56:00.229 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:56:00.317 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn.erl:0: Recompiled.
+2015-03-01 14:56:00.435 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn_mgr.erl:0: Recompiled.
+2015-03-01 14:56:00.477 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_statements.erl:0: Recompiled.
+2015-03-01 14:56:00.560 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_tcp.erl:0: Recompiled.
+2015-03-01 14:56:00.635 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_util.erl:0: Recompiled.
+2015-03-01 14:56:01.250 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/error_logger_lager_h.erl:0: Recompiled.
+2015-03-01 14:56:01.347 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager.erl:0: Recompiled.
+2015-03-01 14:56:01.394 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_app.erl:0: Recompiled.
+2015-03-01 14:56:01.418 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_backend_throttle.erl:0: Recompiled.
+2015-03-01 14:56:01.450 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_common_test_backend.erl:0: Recompiled.
+2015-03-01 14:56:01.474 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_config.erl:0: Recompiled.
+2015-03-01 14:56:01.515 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_console_backend.erl:0: Recompiled.
+2015-03-01 14:56:01.589 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_crash_log.erl:0: Recompiled.
+2015-03-01 14:56:01.618 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_default_formatter.erl:0: Recompiled.
+2015-03-01 14:56:01.779 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_file_backend.erl:0: Recompiled.
+2015-03-01 14:56:01.821 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_handler_watcher.erl:0: Recompiled.
+2015-03-01 14:56:01.895 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_transform.erl:0: Recompiled.
+2015-03-01 14:56:02.036 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_util.erl:0: Recompiled.
+2015-03-01 14:56:02.583 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:56:02.914 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:56:03.011 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:56:03.153 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:56:03.755 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:56:04.022 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:56:04.092 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:56:04.216 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:56:04.240 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_sock.erl:0: Recompiled.
+2015-03-01 14:56:04.276 [info] <0.63.0> cache_server: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.278 [info] <0.63.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.281 [info] <0.63.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.283 [info] <0.63.0> emysql: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.284 [info] <0.63.0> emysql_conn_mgr: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.285 [info] <0.63.0> emysql_statements: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.286 [info] <0.63.0> error_logger_lager_h: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.287 [info] <0.63.0> lager: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.288 [info] <0.63.0> lager_app: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.289 [info] <0.63.0> lager_backend_throttle: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.290 [info] <0.63.0> lager_config: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.291 [info] <0.63.0> lager_console_backend: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.292 [info] <0.63.0> lager_crash_log: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.293 [info] <0.63.0> lager_default_formatter: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.294 [info] <0.63.0> lager_file_backend: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.295 [info] <0.63.0> lager_handler_watcher: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.296 [info] <0.63.0> lager_util: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.297 [info] <0.63.0> lhttpc: Reloaded! (Beam changed.)
+2015-03-01 14:56:04.298 [info] <0.63.0> lhttpc_manager: Reloaded! (Beam changed.)
+2015-03-01 14:56:48.247 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.250 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.251 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.255 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.261 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.270 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.274 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.280 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.281 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.325 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 14:56:48.331 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 14:57:18.643 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache.erl:0: Recompiled.
+2015-03-01 14:57:18.658 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/cache/src/cache_server.erl:0: Recompiled.
+2015-03-01 14:57:19.171 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_parse.erl:0: Recompiled.
+2015-03-01 14:57:19.219 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/ecrontab_server.erl:0: Recompiled.
+2015-03-01 14:57:19.228 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/ecrontab/src/test.erl:0: Recompiled.
+2015-03-01 14:57:19.762 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql.erl:0: Recompiled.
+2015-03-01 14:57:19.823 [error] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:99: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:100: Warning: crypto:sha/1 is deprecated and will be removed in in a future release; use crypto:hash/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:101: Warning: crypto:sha_final/1 is deprecated and will be removed in in a future release; use crypto:hash_final/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:102: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_init/0 is deprecated and will be removed in in a future release; use crypto:hash_init/1
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:103: Warning: crypto:sha_update/2 is deprecated and will be removed in in a future release; use crypto:hash_update/2
+/Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_auth.erl:0: Recompiled with 1 warnings
+2015-03-01 14:57:19.901 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn.erl:0: Recompiled.
+2015-03-01 14:57:20.011 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_conn_mgr.erl:0: Recompiled.
+2015-03-01 14:57:20.052 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_statements.erl:0: Recompiled.
+2015-03-01 14:57:20.130 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_tcp.erl:0: Recompiled.
+2015-03-01 14:57:20.203 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/emysql/src/emysql_util.erl:0: Recompiled.
+2015-03-01 14:57:20.822 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/error_logger_lager_h.erl:0: Recompiled.
+2015-03-01 14:57:20.923 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager.erl:0: Recompiled.
+2015-03-01 14:57:20.969 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_app.erl:0: Recompiled.
+2015-03-01 14:57:20.994 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_backend_throttle.erl:0: Recompiled.
+2015-03-01 14:57:21.026 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_common_test_backend.erl:0: Recompiled.
+2015-03-01 14:57:21.050 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_config.erl:0: Recompiled.
+2015-03-01 14:57:21.093 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_console_backend.erl:0: Recompiled.
+2015-03-01 14:57:21.172 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_crash_log.erl:0: Recompiled.
+2015-03-01 14:57:21.200 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_default_formatter.erl:0: Recompiled.
+2015-03-01 14:57:21.362 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_file_backend.erl:0: Recompiled.
+2015-03-01 14:57:21.403 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_handler_watcher.erl:0: Recompiled.
+2015-03-01 14:57:21.482 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_transform.erl:0: Recompiled.
+2015-03-01 14:57:21.630 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lager/src/lager_util.erl:0: Recompiled.
+2015-03-01 14:57:22.156 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:57:22.418 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:57:22.492 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:57:22.621 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:57:23.165 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc.erl:0: Recompiled.
+2015-03-01 14:57:23.451 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_client.erl:0: Recompiled.
+2015-03-01 14:57:23.524 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_lib.erl:0: Recompiled.
+2015-03-01 14:57:23.653 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_manager.erl:0: Recompiled.
+2015-03-01 14:57:23.678 [info] <0.63.0> /Users/yutao/Documents/erlang/monkey/deps/lhttpc/src/lhttpc_sock.erl:0: Recompiled.
+2015-03-01 14:57:23.713 [info] <0.63.0> cache: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.716 [info] <0.63.0> cache_server: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.719 [info] <0.63.0> ecrontab_parse: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.720 [info] <0.63.0> ecrontab_server: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.721 [info] <0.63.0> emysql: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.723 [info] <0.63.0> emysql_conn_mgr: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.724 [info] <0.63.0> emysql_statements: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.725 [info] <0.63.0> error_logger_lager_h: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.726 [info] <0.63.0> lager: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.727 [info] <0.63.0> lager_app: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.728 [info] <0.63.0> lager_backend_throttle: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.729 [info] <0.63.0> lager_config: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.730 [info] <0.63.0> lager_console_backend: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.731 [info] <0.63.0> lager_crash_log: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.731 [info] <0.63.0> lager_default_formatter: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.733 [info] <0.63.0> lager_file_backend: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.734 [info] <0.63.0> lager_handler_watcher: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.735 [info] <0.63.0> lager_util: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.736 [info] <0.63.0> lhttpc: Reloaded! (Beam changed.)
+2015-03-01 14:57:23.737 [info] <0.63.0> lhttpc_manager: Reloaded! (Beam changed.)
+2015-03-01 14:58:59.480 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.483 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.484 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.489 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.496 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.502 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.505 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.510 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.512 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.557 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 14:58:59.562 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.537 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.540 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.542 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.546 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.552 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.558 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.561 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.565 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.567 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.611 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 15:04:47.615 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.645 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.658 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.660 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.667 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.675 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.683 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.688 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.701 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.703 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.758 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 15:13:58.764 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.550 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.552 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.554 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.563 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.570 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.577 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.580 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.586 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.588 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.635 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 15:15:26.640 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.687 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.700 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.703 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.710 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.718 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.727 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.732 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.744 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.746 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.795 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 15:27:41.801 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.023 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.026 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.027 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.031 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.037 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.042 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.045 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.049 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.050 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.098 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 15:30:24.103 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.802 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.806 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.807 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.813 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.820 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.830 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.834 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.842 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.843 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.892 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:30:33.901 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.190.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.188.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.363 [error] emulator Error in process <0.204.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.364 [error] emulator Error in process <0.191.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.364 [error] emulator Error in process <0.207.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.365 [error] emulator Error in process <0.209.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.214.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.189.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.366 [error] emulator Error in process <0.198.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.367 [error] emulator Error in process <0.217.0> on node 'eric@127.0.0.1' with exit value: {undef,[{lager,debug,["--------> reddy async:~p",[{"SET",["key10000","10000"]}]],[]},{reddy_conn,async,5,[{file,"src/reddy_conn.erl"},{line,78}]},{reddy_conn,sync,3,[{file,"src/reddy_conn.erl"},{line,61}]},{reddy_pool,with_pool,4,[{file... 
+
+
+2015-03-01 17:31:07.367 [error] <0.131.0> gen_server pool_put terminated with reason: bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172
+2015-03-01 17:31:07.368 [error] <0.131.0> CRASH REPORT Process pool_put with 0 neighbours exited with reason: bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172 in gen_server:terminate/6 line 746
+2015-03-01 17:31:07.368 [error] <0.118.0> Supervisor reddy_pool_sup had child reddy_pool started with {reddy_pool,start_link,undefined} at <0.131.0> exit with reason bad argument in call to dict:fetch(<0.195.0>, {dict,20,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[[<0.144.0>|{<0.196.0>,...}]],...}}}) line 130 in reddy_pool:crashed_owner/2 line 172 in context child_terminated
+2015-03-01 17:32:23.191 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.194 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.196 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.201 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.207 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.213 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.216 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.222 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.223 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.274 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:32:23.282 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.807 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.811 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.812 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.819 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.828 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.837 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.841 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.848 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.850 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.900 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:39:44.911 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.237 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.240 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.241 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.247 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.252 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.259 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.262 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.268 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.270 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.315 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:40:47.320 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.856 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.858 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.860 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.864 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.871 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.878 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.881 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.887 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.889 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.927 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:44:29.931 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.926 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.928 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.930 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.935 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.941 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.948 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.951 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.957 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:49:06.958 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:49:07.095 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:49:07.104 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.505 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.519 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.521 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.529 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.538 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.545 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.551 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.560 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.565 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.602 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:51:47.608 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.169 [info] <0.7.0> Application lager started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.173 [info] <0.7.0> Application ranch started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.175 [info] <0.7.0> Application cowlib started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.182 [info] <0.7.0> Application cowboy started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.189 [info] <0.7.0> Application lhttpc started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.197 [info] <0.7.0> Application emysql started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.200 [info] <0.7.0> Application reddy started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.208 [info] <0.7.0> Application ecrontab started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.210 [info] <0.7.0> Application config started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.250 [info] <0.7.0> Application cache started on node 'eric@127.0.0.1'
+2015-03-01 17:54:41.255 [info] <0.7.0> Application monkey started on node 'eric@127.0.0.1'

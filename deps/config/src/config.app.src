@@ -1,0 +1,14 @@
+{application, config,
+ [
+  {description, "An Erlang config library"},
+  {vsn, "1"},
+  {modules, [
+             config
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
