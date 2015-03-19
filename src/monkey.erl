@@ -3,34 +3,40 @@
 
 -export([start/0]).
 
+ensure_started(App) ->
+    case application:start(App) of
+        ok -> ok;
+        {error, {already_started, App}} -> ok
+    end.
+
 start() ->
     io:format("-----------> Monkey king <-------------~n"),
     
-    application:start(sasl),
-    application:start(crypto),
-    application:start(asn1),
-    application:start(public_key),
-    application:start(ssl),
+    ensure_started(sasl),
+    ensure_started(crypto),
+    ensure_started(asn1),
+    ensure_started(public_key),
+    ensure_started(ssl),
 
-%%    application:start(sync),
+%%    ensure_started(sync),
 
-    application:start(syntax_tools),
-    application:start(compiler),
-    application:start(goldrush),
-    application:start(lager),
+    ensure_started(syntax_tools),
+    ensure_started(compiler),
+    ensure_started(goldrush),
+    ensure_started(lager),
 
-    application:start(ranch),
-    application:start(cowlib),
-    application:start(cowboy),
+    ensure_started(ranch),
+    ensure_started(cowlib),
+    ensure_started(cowboy),
 
-    application:start(lhttpc),
-    application:start(emysql),
-    application:start(reddy),
-    application:start(ecrontab),
+    ensure_started(lhttpc),
+    ensure_started(emysql),
+    ensure_started(reddy),
+    ensure_started(ecrontab),
     
 
-    application:start(config),
-    application:start(cache),
-    application:start(monkey),
+    ensure_started(config),
+    ensure_started(cache),
+    ensure_started(monkey),
 
     ok.
