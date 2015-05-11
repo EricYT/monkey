@@ -1,7 +1,7 @@
 
 -module(mysql_utils).
 
--compile(export_all).
+-export([select/3, insert/3, update/3]).
 
 -define(COMMA_SEP, ", ").
 -define(AND_SEP, " and ").
